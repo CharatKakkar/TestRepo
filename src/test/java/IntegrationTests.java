@@ -19,5 +19,19 @@ public class IntegrationTests {
         Assert.assertTrue("testVariable is set to false", testVaribale);
 
     }
+    
+        //Always Pass
+    @Test
+    public void test2(){
+        boolean testVaribale= true;
+      //  Random rand = new Random();
+        /*if(!rand.nextBoolean()){
+            testVaribale=false;
+        }*/
+
+        Assert.assertTrue("testVariable is set to false", testVaribale);
+
+    }
+
 
 }
