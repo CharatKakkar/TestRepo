@@ -19,7 +19,7 @@ public class IntegrationTests {
         Assert.assertTrue("testVariable is set to false", testVaribale);
 
     }
-    
+    /*
         //Always Pass
     @Test
     public void test2(){
@@ -32,6 +32,8 @@ public class IntegrationTests {
         Assert.assertTrue("testVariable is set to false", testVaribale);
 
     }
+
+*/
 
 
 }
