@@ -19,6 +19,15 @@ public class IntegrationTests {
         Assert.assertTrue("testVariable is set to false", testVaribale);
 
     }
+    
+    @Test
+    public void alwaysFalse(){
+        boolean testVaribale= true;
+        
+        Assert.assertTrue("testVariable is set to false", testVaribale);
+
+    }
+    
  
 
 }
