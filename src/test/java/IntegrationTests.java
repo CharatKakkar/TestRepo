@@ -22,7 +22,7 @@ public class IntegrationTests {
     
     @Test
     public void alwaysFalse(){
-        boolean testVaribale= true;
+        boolean testVaribale= false;
         
         Assert.assertTrue("testVariable is set to false", testVaribale);
 
